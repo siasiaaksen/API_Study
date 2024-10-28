@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="PreCompile.h">
+      <Filter>PreCompile</Filter>
+    </ClInclude>
+    <ClInclude Include="EduContentsCore.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayGameMode.h">
+      <Filter>ContentsObject\GameMode</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>ContentsObject\Play</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ContentsObject\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayMap.h">
+      <Filter>ContentsObject\Play</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PreCompile.cpp">
+      <Filter>PreCompile</Filter>
+    </ClCompile>
+    <ClCompile Include="EduContentsCore.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayGameMode.cpp">
+      <Filter>ContentsObject\GameMode</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>ContentsObject\Play</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ContentsObject\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayMap.cpp">
+      <Filter>ContentsObject\Play</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="PreCompile">
+      <UniqueIdentifier>{a87e0078-f3c8-4a43-bfec-c101c9a404c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentsObject">
+      <UniqueIdentifier>{26872fba-4e70-4b03-abcf-75a854643a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{a1cc2534-c12e-4252-9e7c-aafe5e50e75c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentsObject\GameMode">
+      <UniqueIdentifier>{853cd216-882a-48b9-a584-a08e11d0a3b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentsObject\Play">
+      <UniqueIdentifier>{25b203e5-44e3-4be7-8e4a-69c99e422435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentsObject\Global">
+      <UniqueIdentifier>{510c5f9b-b0b2-438d-8751-8d88d6c951ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
